@@ -46,4 +46,19 @@ This gave me **two IP addresses**, a **public** and **private** one. I used the 
 
 **Z: The attacker source country → xxx**
 
-To find the attacker source country, 
+To find the **attacker source country**, I used an **IP Lookup tool**, to map the **public IP** to a **location**.
+
+**USA**
+
+![four](images/usa.png)
+
+<br>
+
+Having this as the final splunk query, **sourcetype="iis" sc_status="404" c_ip="40.80.148.42"** , I was able to narrow down my events to **2009 events**, and got the correct flag.
+
+![four](images/fin.png)
+
+<br>
+
+**flag{2009:40.80.148.42:USA}**
+
