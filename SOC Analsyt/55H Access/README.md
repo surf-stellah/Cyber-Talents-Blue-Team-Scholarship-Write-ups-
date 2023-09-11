@@ -62,7 +62,15 @@ Based on the **"action"** value, the firewall action taken was **blocked**
 
 The **flag**, in this format, **flag{X:Y:Z:W}**, is, **flag{19:91.224.169.108:Netherlands:blocked}**
 
-However, this gave me an error. On further research, I was able to identify the **geolocation** of the IP address **19.91.224.169.108** as **Finland**.
+However, this gave me an error.
+
+<br>
+
+On further research, using an **IP Lookup tool**, I was able to identify the **geolocation** of the IP address **19.91.224.169.108** as **Finland**.
+
+![55h](images/fin.png)
+
+<br>
 
 Therefore the correct flag format, ought to be, **flag{19:91.224.169.108:Finland:blocked}**
 
