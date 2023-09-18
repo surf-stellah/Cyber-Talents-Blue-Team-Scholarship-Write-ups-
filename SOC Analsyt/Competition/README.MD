@@ -6,7 +6,7 @@
 
 <br>
 
-**Special kind of cybersecurity competition designed to challenge its participants to solve computer securoty problems.**
+**Special kind of cybersecurity competition designed to challenge its participants to solve computer security problems.**
 
 The final flag is;
 
