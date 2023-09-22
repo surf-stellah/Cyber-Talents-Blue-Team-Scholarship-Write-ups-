@@ -29,7 +29,9 @@ It, however, required a **password.**
 
 I used **john the ripper to crack the password.**
 
-I first had to obtain the **hash value of the file.** To do so, I converted the **passreset.msg.zip file, to a text file**, using the command;
+I first had to obtain the **hash value of the file.**
+
+To do so, I converted the **passreset.msg.zip file, to a text file**, using the command;
 
 ```shell
 zip2john passreset.msg.zip > passreset.txt
@@ -91,6 +93,9 @@ To find the **domain name** of the associated URL on mail body I **decoded some 
 strings 'Password Reset Request.msg' 
 ```
 ![pass](images/base64.png)
+
+<br>
+
 ![pass](images/echo.png)
 
 Found the domain to be, **attemplate.com**
